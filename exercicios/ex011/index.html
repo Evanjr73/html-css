@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modificação de imagem</title>
+</head>
+<body>
+    <h1>segue a imagem q vai se adapitar a sua tela </h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagem.p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem.m.png" type="image/png">
+        <img src="imagem.g7.png" alt="imagem flexivel">
+    </picture>
+    <h1>colocando audio</h1>
+    <audio preload="metadata" controls>
+        <source src="free.me.mp3" type="audio/mp3"> 
+        <source src="free.me.ogg" type="audio/ogg">
+        <source src="free.me.wav" type="audio/wav">
+        <p><a href="free.me.mp3">clique aq</a>para baixar o arquivo</p></audio>
+    
+</body>
+</html>
